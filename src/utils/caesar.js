@@ -34,7 +34,9 @@ function caesarShift(text, shift) {
     return result;
 }
 
+export { caesarShift };
+
 // Examples:
-console.log(caesarShift("Hello, World!", 3));   // "KHOOR, ZRUOG!"
-console.log(caesarShift("KHOOR, ZRUOG!", -3));  // "HELLO, WORLD!" (decrypt)
-console.log(caesarShift("XYZ", 5));             // "CDE" (wraps around)
+// console.log(caesarShift("Hello, World!", 3));   // "KHOOR, ZRUOG!"
+// console.log(caesarShift("KHOOR, ZRUOG!", -3));  // "HELLO, WORLD!" (decrypt)
+// console.log(caesarShift("XYZ", 5));             // "CDE" (wraps around)
