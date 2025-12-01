@@ -2,10 +2,10 @@
 import { ref } from 'vue';
 
 const inputText = ref('');
-const emit = defineEmits(['text-submitted']);
+const emit = defineEmits(['submit']);
 
 function handleSubmit() {
-    emit('text-submitted', inputText.value);
+    emit('submit', inputText.value);
 }
 </script>
 
